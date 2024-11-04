@@ -6,6 +6,9 @@ import numpy as np
 
 num = 0
 
+cx = 0
+cy = 0
+
 # создание папки, где будут храниться результаты обработки картинок
 if not os.path.isdir("picture_storage"):
     os.mkdir("picture_storage")
